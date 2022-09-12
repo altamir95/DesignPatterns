@@ -25,6 +25,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Prototype.Conceptual", "DesignPatterns.Prototype.Conceptual\DesignPatterns.Prototype.Conceptual.csproj", "{894C7F87-564E-4CD9-9C65-5F906DA4496F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{B4BEB545-69B5-43F9-A06A-91CC131FD37C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Adapter.Conceptual", "DesignPatterns.Adapter.Conceptual\DesignPatterns.Adapter.Conceptual.csproj", "{9E59A6FC-52A3-4278-BA0A-BC3926BA2C80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{894C7F87-564E-4CD9-9C65-5F906DA4496F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{894C7F87-564E-4CD9-9C65-5F906DA4496F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{894C7F87-564E-4CD9-9C65-5F906DA4496F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E59A6FC-52A3-4278-BA0A-BC3926BA2C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E59A6FC-52A3-4278-BA0A-BC3926BA2C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E59A6FC-52A3-4278-BA0A-BC3926BA2C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E59A6FC-52A3-4278-BA0A-BC3926BA2C80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,5 +77,6 @@ Global
 		{F1FA1B96-0B4A-48EA-8946-BEAF1FCA2F30} = {D98E5752-18AD-4BFA-AC9C-36A78A8F5168}
 		{35C8B1B9-CBA3-4539-B0DF-B19CB6A0743F} = {76BDB354-AA11-4D64-BCE6-56DDAB16B363}
 		{894C7F87-564E-4CD9-9C65-5F906DA4496F} = {35C8B1B9-CBA3-4539-B0DF-B19CB6A0743F}
+		{9E59A6FC-52A3-4278-BA0A-BC3926BA2C80} = {B4BEB545-69B5-43F9-A06A-91CC131FD37C}
 	EndGlobalSection
 EndGlobal
