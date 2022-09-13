@@ -57,41 +57,45 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Proxy.Concep
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C Behavioral", "C Behavioral", "{1F4A6745-132D-4079-B3C8-6A614E084491}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. ChainOfResponsibility", "1. ChainOfResponsibility", "{AB46967F-24AB-4DAC-84BF-453DAA3FA8A9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. ChainOfResponsibility", "0. ChainOfResponsibility", "{AB46967F-24AB-4DAC-84BF-453DAA3FA8A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ChainOfResponsibility.Conceptual", "DesignPatterns.ChainOfResponsibility.Conceptual\DesignPatterns.ChainOfResponsibility.Conceptual.csproj", "{F2B3E283-E42E-47F3-A16E-658EB2A72814}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Command", "2. Command", "{83A55E04-F6DB-4BBC-A1A8-686EA621B358}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Command", "1. Command", "{83A55E04-F6DB-4BBC-A1A8-686EA621B358}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Command.Conceptual", "DesignPatterns.Command.Conceptual\DesignPatterns.Command.Conceptual.csproj", "{88FD0A03-D31C-47E3-A608-D784FC491A65}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Iterator", "3 Iterator", "{0C2C80DC-71A4-4EC8-B55B-6A245BECA107}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Iterator", "2 Iterator", "{0C2C80DC-71A4-4EC8-B55B-6A245BECA107}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Iterator.Conceptual", "DesignPatterns.Iterator.Conceptual\DesignPatterns.Iterator.Conceptual.csproj", "{2C1DEDA0-9179-44EB-A9A3-C574E2D5E66A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Mediator", "4 Mediator", "{1C1A8B13-68AB-488B-AF4E-A3DD8D8BA744}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Mediator", "3 Mediator", "{1C1A8B13-68AB-488B-AF4E-A3DD8D8BA744}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Mediator.Conceptual", "DesignPatterns.Mediator.Conceptual\DesignPatterns.Mediator.Conceptual.csproj", "{3CBC0D56-2E03-49B5-90A6-132A3632DD95}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Memento", "5 Memento", "{85167D90-04F1-44CF-9354-5807A9D7C5AE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Memento", "4 Memento", "{85167D90-04F1-44CF-9354-5807A9D7C5AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Memento.Conceptual", "DesignPatterns.Memento.Conceptual\DesignPatterns.Memento.Conceptual.csproj", "{2AD78551-169E-4AD8-BE73-F954B98EF5FB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 Observer", "6 Observer", "{1382A641-D009-463B-9EC8-F2BAAE907E9C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Observer", "5 Observer", "{1382A641-D009-463B-9EC8-F2BAAE907E9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Observer.Conceptual", "DesignPatterns.Observer.Conceptual\DesignPatterns.Observer.Conceptual.csproj", "{E694C3E8-2EA9-4893-8846-7D2601450A02}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 State", "7 State", "{E747DF4E-0401-4E31-B934-03F635CF83C4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 State", "6 State", "{E747DF4E-0401-4E31-B934-03F635CF83C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.State.Conceptual", "DesignPatterns.State.Conceptual\DesignPatterns.State.Conceptual.csproj", "{AA984856-A8CA-4281-A81A-09407F8C0557}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 Strategy", "8 Strategy", "{ED03BE56-F453-43CD-9C14-558A0873F2E3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 Strategy", "7 Strategy", "{ED03BE56-F453-43CD-9C14-558A0873F2E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Strategy.Conceptual", "DesignPatterns.Strategy.Conceptual\DesignPatterns.Strategy.Conceptual.csproj", "{7E8D7B1B-838C-4F69-87C4-DCD9B0A2D632}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 TemplateMethod", "9 TemplateMethod", "{654D9464-7D91-4CB2-8E75-9C1E6BA6D99A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 TemplateMethod", "8 TemplateMethod", "{654D9464-7D91-4CB2-8E75-9C1E6BA6D99A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.TemplateMethod.Conceptual", "DesignPatterns.TemplateMethod.Conceptual\DesignPatterns.TemplateMethod.Conceptual.csproj", "{9013A928-80E0-401A-B3C0-8DA3865B985F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Visitor", "9 Visitor", "{3418EE04-498E-40DB-ACB7-39FA7FDB15A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Visitor.Conceptual", "DesignPatterns.Visitor.Conceptual\DesignPatterns.Visitor.Conceptual.csproj", "{6CF0B216-ADB4-4F47-9019-F5A3031A9436}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +187,10 @@ Global
 		{9013A928-80E0-401A-B3C0-8DA3865B985F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9013A928-80E0-401A-B3C0-8DA3865B985F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9013A928-80E0-401A-B3C0-8DA3865B985F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF0B216-ADB4-4F47-9019-F5A3031A9436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF0B216-ADB4-4F47-9019-F5A3031A9436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF0B216-ADB4-4F47-9019-F5A3031A9436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF0B216-ADB4-4F47-9019-F5A3031A9436}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -233,5 +241,7 @@ Global
 		{7E8D7B1B-838C-4F69-87C4-DCD9B0A2D632} = {ED03BE56-F453-43CD-9C14-558A0873F2E3}
 		{654D9464-7D91-4CB2-8E75-9C1E6BA6D99A} = {1F4A6745-132D-4079-B3C8-6A614E084491}
 		{9013A928-80E0-401A-B3C0-8DA3865B985F} = {654D9464-7D91-4CB2-8E75-9C1E6BA6D99A}
+		{3418EE04-498E-40DB-ACB7-39FA7FDB15A3} = {1F4A6745-132D-4079-B3C8-6A614E084491}
+		{6CF0B216-ADB4-4F47-9019-F5A3031A9436} = {3418EE04-498E-40DB-ACB7-39FA7FDB15A3}
 	EndGlobalSection
 EndGlobal
