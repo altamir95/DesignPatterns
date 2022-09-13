@@ -77,6 +77,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Memento", "5 Memento", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Memento.Conceptual", "DesignPatterns.Memento.Conceptual\DesignPatterns.Memento.Conceptual.csproj", "{2AD78551-169E-4AD8-BE73-F954B98EF5FB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 Observer", "6 Observer", "{1382A641-D009-463B-9EC8-F2BAAE907E9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Observer.Conceptual", "DesignPatterns.Observer.Conceptual\DesignPatterns.Observer.Conceptual.csproj", "{E694C3E8-2EA9-4893-8846-7D2601450A02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +155,10 @@ Global
 		{2AD78551-169E-4AD8-BE73-F954B98EF5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AD78551-169E-4AD8-BE73-F954B98EF5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AD78551-169E-4AD8-BE73-F954B98EF5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E694C3E8-2EA9-4893-8846-7D2601450A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E694C3E8-2EA9-4893-8846-7D2601450A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E694C3E8-2EA9-4893-8846-7D2601450A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E694C3E8-2EA9-4893-8846-7D2601450A02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,5 +201,7 @@ Global
 		{3CBC0D56-2E03-49B5-90A6-132A3632DD95} = {1C1A8B13-68AB-488B-AF4E-A3DD8D8BA744}
 		{85167D90-04F1-44CF-9354-5807A9D7C5AE} = {1F4A6745-132D-4079-B3C8-6A614E084491}
 		{2AD78551-169E-4AD8-BE73-F954B98EF5FB} = {85167D90-04F1-44CF-9354-5807A9D7C5AE}
+		{1382A641-D009-463B-9EC8-F2BAAE907E9C} = {1F4A6745-132D-4079-B3C8-6A614E084491}
+		{E694C3E8-2EA9-4893-8846-7D2601450A02} = {1382A641-D009-463B-9EC8-F2BAAE907E9C}
 	EndGlobalSection
 EndGlobal

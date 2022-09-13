@@ -3,7 +3,7 @@
 
 using System;
 
-namespace RefactoringGuru.DesignPatterns.Mediator.Conceptual
+namespace DesignPatterns.Mediator.Conceptual
 {
     // Интерфейс Посредника предоставляет метод, используемый компонентами для
     // уведомления посредника о различных событиях. Посредник может реагировать

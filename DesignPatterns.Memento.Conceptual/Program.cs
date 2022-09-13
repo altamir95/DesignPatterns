@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 
-namespace RefactoringGuru.DesignPatterns.Memento.Conceptual
+namespace DesignPatterns.Memento.Conceptual
 {
     // Создатель содержит некоторое важное состояние, которое может со временем
     // меняться. Он также объявляет метод сохранения состояния внутри снимка и
