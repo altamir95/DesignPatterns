@@ -16,14 +16,14 @@ namespace DesignPatterns.Visitor.Conceptual
     // Каждый Конкретный Компонент должен реализовать метод Accept таким
     // образом, чтобы он вызывал метод посетителя, соответствующий классу
     // компонента.
-    public class ConcreteComponentA : IComponent
+    public class Component1 : IComponent
     {
         // Обратите внимание, мы вызываем VisitConcreteComponentA, что
         // соответствует названию текущего класса. Таким образом мы позволяем
         // посетителю узнать, с каким классом компонента он работает.
-        public void Accept(IVisitor visitor)
+        public void Accept(IVisitor v)
         {
-            visitor.VisitConcreteComponentA(this);
+            v.Visit(this);
         }
 
         // Конкретные Компоненты могут иметь особые методы, не объявленные в их
@@ -35,12 +35,12 @@ namespace DesignPatterns.Visitor.Conceptual
         }
     }
 
-    public class ConcreteComponentB : IComponent
+    public class Component2 : IComponent
     {
         // То же самое здесь: VisitConcreteComponentB => ConcreteComponentB
-        public void Accept(IVisitor visitor)
+        public void Accept(IVisitor v)
         {
-            visitor.VisitConcreteComponentB(this);
+            v.Visit(this);
         }
 
         public string SpecialMethodOfConcreteComponentB()
@@ -54,9 +54,9 @@ namespace DesignPatterns.Visitor.Conceptual
     // определить конкретный класс компонента, с которым он имеет дело.
     public interface IVisitor
     {
-        void VisitConcreteComponentA(ConcreteComponentA element);
+        void Visit(Component1 element);
 
-        void VisitConcreteComponentB(ConcreteComponentB element);
+        void Visit(Component2 element);
     }
 
     // Конкретные Посетители реализуют несколько версий одного и того же
@@ -70,12 +70,12 @@ namespace DesignPatterns.Visitor.Conceptual
     // структуры.
     class ConcreteVisitor1 : IVisitor
     {
-        public void VisitConcreteComponentA(ConcreteComponentA element)
+        public void Visit(Component1 element)
         {
             Console.WriteLine(element.ExclusiveMethodOfConcreteComponentA() + " + ConcreteVisitor1");
         }
 
-        public void VisitConcreteComponentB(ConcreteComponentB element)
+        public void Visit(Component2 element)
         {
             Console.WriteLine(element.SpecialMethodOfConcreteComponentB() + " + ConcreteVisitor1");
         }
@@ -83,12 +83,12 @@ namespace DesignPatterns.Visitor.Conceptual
 
     class ConcreteVisitor2 : IVisitor
     {
-        public void VisitConcreteComponentA(ConcreteComponentA element)
+        public void Visit(Component1 element)
         {
             Console.WriteLine(element.ExclusiveMethodOfConcreteComponentA() + " + ConcreteVisitor2");
         }
 
-        public void VisitConcreteComponentB(ConcreteComponentB element)
+        public void Visit(Component2 element)
         {
             Console.WriteLine(element.SpecialMethodOfConcreteComponentB() + " + ConcreteVisitor2");
         }
@@ -114,8 +114,8 @@ namespace DesignPatterns.Visitor.Conceptual
         {
             List<IComponent> components = new List<IComponent>
             {
-                new ConcreteComponentA(),
-                new ConcreteComponentB()
+                new Component1(),
+                new Component2()
             };
 
             Console.WriteLine("The client code works with all visitors via the base Visitor interface:");
